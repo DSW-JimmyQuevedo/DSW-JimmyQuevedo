@@ -7,6 +7,32 @@
     <title>Videos</title>
 </head>
 <body>
+    <p>
+        
+         <br>   VIDEOS</br>
+
+    <p>
+        
+        Atributos
+autoplay
+Un atributo booleano; si se especifica, el video comenzará a reproducirse automáticamente tan pronto como sea posible, sin detenerse para terminar de cargar los datos.
+autobuffer  
+Un atributo booleano; si se especifica, el video comenzará automáticamente a almacenarse en el búfer, incluso si no está listo para reproducirse de forma automática. Esto se debe utilizar para los casos en los que se considera probable que el video se reproduzca (por ejemplo, si el usuario accedió a esa página específica para reproducir el video, no si hay un video insertado junto con otros contenidos). El video se almacena en el búfer hasta que el caché de medios esté lleno.
+Nota de implementación: aunque forma parte de los primeros borradores de la especificación HTML 5, el atributo autobuffer se ha eliminado en versiones posteriores. Se ha quitado de Gecko 2.0 y otros navegadores, y en algunos nunca llegó a implementarse. La especificación define un nuevo atributo enumerado, preload, para sustituir el atributo autobuffer, con una sintaxis diferente. error 548523
+buffered
+Un atributo que se puede leer para determinar qué intervalos de tiempo del multimedia se han almacenado en búfer. Este atributo contiene un objeto TimeRanges (en-US) .
+controls
+Si está presente este atributo, Gecko ofrecerá controles para permitir que el usuario controle la reproducción de video, incluyendo volumen, búsqueda y pausar/reanudar reproducción.
+height
+La altura del área de visualización del vídeo en píxeles CSS.
+loop
+Un atributo booleano; si se especifica, al alcanzar el final del video, buscaremos automáticamente hasta el principio.
+</p>
+
+
+  
     <iframe width="420" height="345" src="https://www.youtube.com/embed/3zHpSdfA58A">
+       
+    
 </body>
 </html>
